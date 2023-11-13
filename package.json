@@ -1,0 +1,35 @@
+{
+  "name": "simple-email-redis-microservice",
+  "author": {
+    "name": "Abhiseck Bhattacharya",
+    "email": "Abhiseck@outlook.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "description": "A Simple Email Send API Microservice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon index.js",
+    "server": "node index.js",
+    "worker": "node worker.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.1",
+    "express": "^4.18.2",
+    "express-prom-bundle": "^6.6.0",
+    "ioredis": "^5.3.2",
+    "nodemailer": "^6.9.7",
+    "prom-client": "^15.0.0",
+    "redis": "^4.6.10",
+    "winston": "^3.11.0",
+    "winston-daily-rotate-file": "^4.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
